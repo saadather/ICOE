@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  openDonatePage() {
+    window.open('http://www.eastsidemosque.com/donate.php');
+  }
 }
